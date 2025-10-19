@@ -28,30 +28,46 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-</head> 
+</head>
 
-  <!-- Floating Previous Portfolio Link -->
+<!-- Floating Previous Portfolio Link -->
 <style>
-    .previous-portfolio-btn {
-        position: fixed;
-        bottom: 30px;
-        right: 100px;
-        background: rgba(0, 0, 0, 0.6);
-        color: #fff;
-        padding: 10px 18px;
-        border-radius: 30px;
-        font-size: 14px;
-        text-decoration: none;
-        font-weight: 500;
-        backdrop-filter: blur(5px);
-        transition: all 0.3s ease;
-        z-index: 9999;
-    }
+  .previous-portfolio-btn {
+    position: fixed;
+    bottom: 80px;
+    right: 40px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Courier New', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 4px 15px rgba(37, 117, 252, 0.4);
+    transition: all 0.35s ease;
+    z-index: 9999;
+    backdrop-filter: blur(6px);
+  }
 
-    .previous-portfolio-btn:hover {
-        background: rgba(255, 255, 255, 0.2);
-        color: #00bcd4;
-    }
+  .previous-portfolio-btn i {
+    font-size: 16px;
+    transition: transform 0.3s ease;
+  }
+
+  .previous-portfolio-btn:hover {
+    transform: translateY(-3px) scale(1.03);
+    box-shadow: 0 6px 25px rgba(106, 17, 203, 0.5);
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    color: #fff;
+  }
+
+  .previous-portfolio-btn:hover i {
+    transform: translateX(5px);
+  }
 </style>
 
 
@@ -106,12 +122,12 @@
       <p>I'm <span class="typed"
           data-typed-items="Full Stack Developer, App Developer, Data Scientist, SEO Expert, Freelancer"></span></p>
     </div>
-  </section><!-- End Hero --> 
+  </section><!-- End Hero -->
 
-    <!-- Floating Previous Portfolio Link -->
-    <a href="https://iamprasanjitroy.github.io/" target="_blank" class="previous-portfolio-btn">
-        Go to My Newest Portfolio
-    </a>
+  <!-- Floating Previous Portfolio Link -->
+  <a href="https://iamprasanjitroy.github.io/" target="_blank" class="previous-portfolio-btn">
+    Go to My Newest Portfolio
+  </a>
 
   <main id="main">
 
@@ -249,30 +265,30 @@
             <a href="CV\Prasanjit Roy 1.pdf" download="Prasanjit Roy 1.pdf" class="custom-btn btn-7">
               <span>Download Web Developer Resume</span>
             </a>
-            
+
             <a href="CV\Prasanjit Roy 2.pdf" download="Prasanjit Roy 2.pdf" class="custom-btn btn-7">
               <span>Download Data Scientist Resume</span>
             </a>
-            
-          </div>
-        </div> 
 
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-
-              <a href="CV\Prasanjit-Roy-1-New.pdf" download="Prasanjit Roy 1.pdf" class="custom-btn btn-7">
-              <span>Download Web Developer Resume Classic</span>
-              </a>
-              
-              <a href="CV\Prasanjit-Roy-2-New.pdf" download="Prasanjit Roy 2.pdf" class="custom-btn btn-7">
-              <span>Download Data Scientist Resume Classic</span>
-              </a>
-              
           </div>
         </div>
-        
 
-        
+        <div class="row">
+          <div class="col-12 d-flex justify-content-center">
+
+            <a href="CV\Prasanjit-Roy-1-New.pdf" download="Prasanjit Roy 1.pdf" class="custom-btn btn-7">
+              <span>Download Web Developer Resume Classic</span>
+            </a>
+
+            <a href="CV\Prasanjit-Roy-2-New.pdf" download="Prasanjit Roy 2.pdf" class="custom-btn btn-7">
+              <span>Download Data Scientist Resume Classic</span>
+            </a>
+
+          </div>
+        </div>
+
+
+
 
     </section><!-- End Resume Section -->
 
